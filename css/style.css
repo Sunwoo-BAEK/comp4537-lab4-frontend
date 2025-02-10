@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    background-color: #25384b;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5d6a78;
+}
+
+/* Response area */
+pre {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: left;
+}
