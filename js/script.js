@@ -47,8 +47,8 @@ class DictionaryApp {
     }
 
     displayResponse(result) {
-        const { word, definition, message } = result;
-        this.responseDiv.innerText = message || `${word}: ${definition}`;
+        const { word, definition, message, requestCount } = result;
+        this.responseDiv.innerText = message || `Request: ${requestCount}. ${word}: ${definition}`;
     }
 }
 
